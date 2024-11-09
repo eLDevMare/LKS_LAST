@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(0, 1, 7);
+    flex-direction: column;
+}
+.container {
+    text-align: center;
+}
+.title {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+.input-container {
+    margin-bottom: 1px;
+}
+.input-container input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid white;
+    background-color:  rgb(0, 1, 7);
+    border-radius: 2px;
+    color: white;
+    width: 300px;
+    text-align: left;
+}
+.button {
+    background-color: #3b3bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 320px;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin: 0 auto;
+}
+.links a {
+    color: #3b3bff;
+    text-decoration: none;
+    font-size: 16px;
+}
+canvas {
+    border: 2px solid white;
+    display: none;  /* Canvas initially hidden */
+}
+#startGame {
+    font-size: 20px;
+    padding: 3px;
+}
+#nameInput {
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#timer {
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+    display: none;
+}
